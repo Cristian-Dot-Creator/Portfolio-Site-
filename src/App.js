@@ -11,6 +11,7 @@ function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
+      <Route exact path='/' component={Homepage}/>
       <Route exact path='/Pages/Homepage' component={Homepage}/>
       <Route exact path='/Pages/Resume' component={Resume}/>
       <Route exact path='/Pages/Contact' component={Contact}/>
