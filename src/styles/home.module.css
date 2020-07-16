@@ -5,6 +5,11 @@
 }
 
 
+/* .body {
+    width: 1200px;
+    margin: 0 auto;
+} */
+
 .container {
     width: 100%;
     height: 522px;
@@ -216,6 +221,40 @@
 }
 
 .portfolio_item:nth-child(1) {
+    background-image: url("../images/New\ York\ -\ Brave\ 7_16_2020\ 1_53_19\ AM.png");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.portfolio_item:nth-child(2) {
+    background-image: url("../images/Blog.png");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.portfolio_item:nth-child(3) {
+    background-image: url("../images/tictactoe.png");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.portfolio_item:nth-child(4) {
+    background-image: url("../images/New\ York\ -\ Brave\ 7_16_2020\ 1_53_19\ AM.png");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.portfolio_item:nth-child(5) {
+    background-image: url("../images/New\ York\ -\ Brave\ 7_16_2020\ 1_53_19\ AM.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.portfolio_item:nth-child(6) {
     background-image: url("../images/New\ York\ -\ Brave\ 7_16_2020\ 1_53_19\ AM.png");
     background-position: center;
     background-size: cover;
