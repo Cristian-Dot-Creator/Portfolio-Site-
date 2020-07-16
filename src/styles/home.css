@@ -96,6 +96,8 @@
     text-align: left;
     font-size: 1.4rem;
     margin-top: 10px;
+    font-weight: 550;
+    line-height: 35px;
 }
 
 .Hero_Section_Item:nth-child(1) {

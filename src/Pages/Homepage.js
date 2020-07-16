@@ -18,7 +18,8 @@ export default function Homepage() {
             <div class="Hero_Section">
         <div class="Hero_Section_Item">
             <h1>Fullstack Developer</h1>
-            <p>I plan and code beautifully simple things, and I love what I do.</p>
+            <p> A recent graduate from the Road to Hire Program. A 6-month rigorous boot Camp, where I learned multiple coding Languages and expanded on my Professional Development skills.     
+                I plan and code beautifully simple things, and I love what I do.</p>
             <a href="#projects"><button>View my work</button></a> 
         </div>
 
