@@ -207,3 +207,13 @@
     padding: 15px;
     height: 100px;
 }
+
+.portfolio_item h2 {
+    background-color: #fff;
+}
+
+.portfolio_item:nth-child(1) {
+    background-image: url("../images/New\ York\ -\ Brave\ 7_16_2020\ 1_53_19\ AM.png");
+    background-position: center;
+    background-size: cover;
+}

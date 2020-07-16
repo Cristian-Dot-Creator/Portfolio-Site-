@@ -17,7 +17,7 @@ export default function Homepage() {
 
             <div class="Hero_Section">
         <div class="Hero_Section_Item">
-            <h1>FULL STACK DEVEOLPER</h1>
+            <h1>Fullstack Developer</h1>
             <p>I plan and code beautifully simple things, and I love what I do.</p>
             <a href="#projects"><button>View my work</button></a> 
         </div>
@@ -34,9 +34,9 @@ export default function Homepage() {
             <div className={style.child}>
                 <div className={style.p_c_1}>
                     
-                    <h1>Back-end Developer</h1>
+                    <h1>Back-end</h1>
                 
-                <p>I like Backend beacuse it's cool to be actually working on the things that make the frontend run well.</p>
+                <p>I like Backend beacuse It's working on the things that make the frontend run well.</p>
                 
                 <h2>Languages I speak:</h2>
                 <p>Node.js, MySQL</p>
@@ -45,7 +45,7 @@ export default function Homepage() {
                 </div>
 
 
-                <div className={style.p_c_2}><h1>Front-end Developer</h1>
+                <div className={style.p_c_2}><h1>Front-end </h1>
 
                 <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
                 <h2>Languages I speak:</h2>
@@ -60,7 +60,7 @@ export default function Homepage() {
                 <div className={style.p_c_3}><h1>Developer Tools Used</h1>
                 <p>Essentials for every programer</p>
                 
-                <h2>Languages I speak:</h2>
+                <h2>Tools I use:</h2>
                 <p>Github,Terminal</p>
                 <img src={Terminal} alt="Node" className={style.Logos}/>
                 <img src={Git} alt="Node" className={style.Logos}/>
@@ -78,12 +78,12 @@ export default function Homepage() {
                 
 {/* Bottom Section with Portfolio Project */}
                 <div className={style.portfolio_container}>
-                        <div className={style.portfolio_item}>Travel Site</div>
-                        <div className={style.portfolio_item}>Blog Site</div>
-                        <div className={style.portfolio_item}>Tic-Tac-Toe</div>
-                        <div className={style.portfolio_item}>Weather APP</div>
-                        <div className={style.portfolio_item}>Econ Site</div>
-                        <div className={style.portfolio_item}>Voice App</div>
+                        <div className={style.portfolio_item}><h2>Travel Site</h2><button>Github</button>  <button>Site</button></div>
+                        <div className={style.portfolio_item}><h2>Blog Site</h2><button>Github</button>  <button>Site</button></div>
+                        <div className={style.portfolio_item}><h2>Tic-Tac-Toe</h2><button>Github</button>  <button>Site</button></div>
+                        <div className={style.portfolio_item}><h2>Weather APP</h2><button>Github</button>  <button>Site</button></div>
+                        <div className={style.portfolio_item}><h2>Econ Site</h2><button>Github</button>  <button>Site</button></div>
+                        <div className={style.portfolio_item}><h2>Voice App</h2><button>Github</button>  <button>Site</button></div>
 
                 </div>
             </div>
