@@ -2,6 +2,11 @@ import React from 'react'
 import style from '../styles/home.module.css'
 import '../styles/home.css'
 import jsLogo from '../images/svg/js-brands.svg';
+import NodeJS from '../images/svg/node-brands.svg';
+import ReactJS from '../images/svg/react-brands.svg';
+import Sass from '../images/svg/sass-brands.svg';
+import Terminal from '../images/svg/terminal-solid.svg'
+import Git from '../images/svg/github-brands.svg';
 
 export default function Homepage() {
     return (
@@ -35,7 +40,7 @@ export default function Homepage() {
                 
                 <h2>Languages I speak:</h2>
                 <p>Node.js, MySQL</p>
-                
+                <img src={NodeJS} alt="Node" className={style.Logos}/>
 
                 </div>
 
@@ -45,7 +50,9 @@ export default function Homepage() {
                 <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
                 <h2>Languages I speak:</h2>
                 <p>Html,CSS, Javascript.JS, React.JS, SASS</p>
-                <img src={jsLogo} alt="js Logo" className={style.javaScriptLogo}/>
+                <img src={jsLogo} alt="js Logo" className={style.Logos}/>
+                <img src={ReactJS} alt="js Logo" className={style.Logos}/>
+                <img src={Sass} alt="js Logo" className={style.Logos}/>
                 </div>
                 
 
@@ -55,6 +62,8 @@ export default function Homepage() {
                 
                 <h2>Languages I speak:</h2>
                 <p>Github,Terminal</p>
+                <img src={Terminal} alt="Node" className={style.Logos}/>
+                <img src={Git} alt="Node" className={style.Logos}/>
 
                 </div>
                 </div>    

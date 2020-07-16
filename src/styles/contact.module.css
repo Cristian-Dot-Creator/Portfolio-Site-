@@ -1,4 +1,90 @@
+.container2 {
+    height: 500px;
+    background-color: #C26C53;
+    margin-top: 100px;
+    padding: 5px;
+}
+
+
+
+
+
+
 .contactContainer {
     background-color:#1F2D3D;
-    height: 1000px;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
 }
+
+.container {
+    width: 800px;
+    height: 700px;
+    background: #C26C53;
+    margin: auto auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px rgba(8, 17, 12, 0.6)
+}
+
+.container p {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 45px;
+    font-size: 550;
+    margin-bottom: 20px;
+    color: #Fff;
+    letter-spacing: 1px;
+
+}
+
+.input, .msg .area {
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    border: 2px solid #38423B;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.5s ease;
+}
+
+.login .input {
+    width: 48%;
+    float: left;
+    margin-right:4%;
+}
+
+.login .input:last-child {
+    margin-right: 0;
+}
+
+.msg .area{
+    height:200px;
+
+}
+
+.btn{
+    width: 250px;
+    background: #38423B;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    margin-top: 2px;
+}
+
+
+.input:focus,
+.msg .area:focus{
+    border: 2px solid black;
+}
+

@@ -18,7 +18,7 @@
     height: 600px;
     background-color: #1F2D3D;
     position: relative;
-    /* margin-top: 10px; */
+   
 }
 
 .child {
@@ -66,7 +66,7 @@
     flex-wrap: wrap;
     background-color:#1F2D3D;
     height: fit-content;
-    padding: 50px;
+    padding: 55px;
     justify-content: space-evenly;
 }
 
@@ -94,7 +94,7 @@
 }
 .p_c_1 {
     border-right: grey solid 3px;
-    padding: 10px;
+    flex: 1;
   }
 
   .p_c_1 h1{
@@ -113,6 +113,7 @@
   .p_c_2 {
       font-size: 1.2rem;
       padding: 10px;
+      flex: 1;
       
   }
 
@@ -131,6 +132,7 @@
   .p_c_3 {
       border-left: grey solid 3px;
       padding: 10px;
+      flex: 1;
    }
   
    .p_c_3 h1{
@@ -148,7 +150,7 @@
 @media only screen and (max-width:800px) {
 
     .parent {
-        height: 900px;
+        height: 1000px;
     }
 
     .child {
@@ -201,7 +203,7 @@
     }
   }
 
-.javaScriptLogo {
+.Logos {
     padding: 15px;
     height: 100px;
 }
