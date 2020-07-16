@@ -1,4 +1,23 @@
 .resumeContainer {
     background-color:#1F2D3D;
-    height: 1000px;
+    height: fit-content;
+    display: flex;
+}
+
+
+.ReachContainer {
+    background-color: white;
+    height: fit-content;
+    width: 80%;
+    border: #344238 solid 15px;
+    background-color: white;
+    margin: auto auto;
+    margin-top: 50px;
+    display: flex;
+}
+
+
+.res {
+    background-size: cover;
+    width: 100%;
 }

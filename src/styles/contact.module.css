@@ -5,7 +5,43 @@
     padding: 5px;
 }
 
+.ReachContainer {
+    background: white;
+    height: fit-content;
+    border: #344238 solid 15px;
+}
 
+
+.ReachContainer  p {
+    font-size: 1.7rem;
+    text-align: left;
+    color: black;
+    font-weight: 800;
+}
+
+.ReachContainer h1 {
+    font-size: 5.5rem;
+    padding: 15px;
+    font-weight: 800;
+    color: #1F2D3D;
+}
+
+
+.ReachContainer h2 {
+    color: #1F2D3D;
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.ReachContainer a {
+    text-decoration: none;
+    color:black;
+}
+.ReachContainer a:hover {
+    box-shadow: 0 0 20px rgba(8, 17, 12, 0.6)
+}
 
 
 

@@ -1,7 +1,7 @@
 .foot {
     background-color:#C26C53;
     padding: 20px;
-    height: 80px;
+    height: 100px;
     width: 100%;
 }
 
@@ -16,4 +16,9 @@
 
 .social_icons {
     font-size: 1.2rem;
+}
+
+.Logos {
+    padding: 15px;
+    height: 70px;
 }
