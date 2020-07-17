@@ -12,7 +12,8 @@
 
 .copyright {
     font-size: 0.7rem;
-    color:white;
+    color:#fff;
+    align-self: center;
 }
 
 .social_icons {
