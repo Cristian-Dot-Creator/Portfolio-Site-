@@ -9,11 +9,13 @@
     background: white;
     height: fit-content;
     border: #344238 solid 15px;
+    width: 70%;
+    margin: 0 auto;
 }
 
 
 .ReachContainer  p {
-    font-size: 2.2rem;
+    font-size: 1.2rem;
     margin-left: 10px;
     text-align: left;
     color: #1F2D3D;
